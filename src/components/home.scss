@@ -1,0 +1,16 @@
+.HomePage {
+    margin-left : 5rem;
+    &__listing {
+      display: grid;
+      grid-auto-flow: row dense;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  
+    &__card {
+      margin-right: 2rem;
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }

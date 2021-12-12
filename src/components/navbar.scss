@@ -1,0 +1,26 @@
+.navbar{
+    background-color: #2874f0;
+    color : #fff;
+    display : flex;
+    justify-content: space-between;
+
+    h2{
+        margin-top : 0;
+        padding : 0.8rem 1rem;
+    }
+
+    button{
+        padding : 0.5rem 0.5rem;
+        margin-top : 0;
+        margin-left: 1rem;
+        border-radius: 0.5rem;
+        cursor : pointer;
+        background-color : red;
+        color : #fff;
+        border : none;
+
+        &:active{
+            scale:100px;
+        }
+    }
+}
